@@ -8,43 +8,43 @@ Multiply = False
 
 def Nine():
     NumNine = 9
-    Entry.insert(CalcEnt, 0, NumNine)
+    Entry.insert(CalcEnt, END, NumNine)
 
 def Eight():
     NumEight = 8
-    Entry.insert(CalcEnt, 0, NumEight)
+    Entry.insert(CalcEnt, END, NumEight)
     
 def Seven():
     NumSeven = 7
-    Entry.insert(CalcEnt, 0, NumSeven) 
+    Entry.insert(CalcEnt, END, NumSeven) 
     
 def Six():
     NumSix = 6
-    Entry.insert(CalcEnt, 0, NumSix) 
+    Entry.insert(CalcEnt, END, NumSix) 
   
 def Five():
     NumFive = 5
-    Entry.insert(CalcEnt, 0, NumFive)  
+    Entry.insert(CalcEnt, END, NumFive)  
 
 def Four():
     NumFour = 4
-    Entry.insert(CalcEnt, 0, NumFour)
+    Entry.insert(CalcEnt, END, NumFour)
 
 def Three():
     NumThree = 3
-    Entry.insert(CalcEnt, 0, NumThree)
+    Entry.insert(CalcEnt, END, NumThree)
     
 def Two():
     NumTwo = 2
-    Entry.insert(CalcEnt, 0, NumTwo) 
+    Entry.insert(CalcEnt, END, NumTwo) 
     
 def One():
     NumOne = 1
-    Entry.insert(CalcEnt, 0, NumOne)  
+    Entry.insert(CalcEnt, END, NumOne)  
     
 def Zero():
     NumZero = 0
-    Entry.insert(CalcEnt, 0, NumZero) 
+    Entry.insert(CalcEnt, END, NumZero) 
     
 def Clear():
     CalcEnt.delete(first=0, last=9999)  
